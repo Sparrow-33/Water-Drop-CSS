@@ -1,0 +1,44 @@
+body{
+    background: rgb(255, 255, 255);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.parent::after{
+    content: '';
+    position: absolute;
+    background: whitesmoke;
+    height: 20px;
+    width: 20px;
+    border-radius: 51% 49% 55% 45% / 55% 29% 71% 45% ;
+    left: 50px;
+    top: 50px;
+    box-shadow: inset 0 0 5px rgb(247, 241, 241) ,
+                   0 0 20px rgb(255, 255, 255) ,
+                 inset  0 10px 10px rgb(238, 223, 223),
+                 inset 0 -5px 5px rgb(206, 201, 201) ,
+                 inset 15px 15px 15px white ;
+    opacity: 0.6;             
+}
+
+.parent{
+    position: relative;
+    width:200px;
+    height:200px;
+    opacity: 0.6;
+    background:rgb(165, 162, 162);
+    border-radius:62% 38% 58% 42% / 34% 42% 58% 66%  ;
+    box-shadow: inset 0 0 30px rgb(255, 255, 255) ,
+                   0 0 20px gainsboro ,
+                 inset  10px 30px 30px rgb(155, 153, 153),
+                 inset 0 -5px 150px whitesmoke ,
+                 30px 20px 10px rgb(184, 180, 180) ,
+                 inset 0 30px 40px whitesmoke;
+
+
+}
